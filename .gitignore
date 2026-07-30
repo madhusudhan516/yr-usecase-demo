@@ -31,3 +31,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### OS files ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Logs ###
+*.log
+logs/
+
+### Environment / secrets ###
+.env
+*.env
+!.env.example
+
+### Build artifacts (extra) ###
+*.class
+career-prep/*.zip
+
